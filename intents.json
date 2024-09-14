@@ -1,0 +1,185 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hey",
+        "Hello",
+        "Vanakkam",
+        "Hi",
+        "Hi there",
+        "Greetings"
+        
+      ],
+      "responses": [
+        "Hiii, which domain are you interested in exploring? Kitchen, Bedroom, Living Room, Bathroom,Wardrobe, Cost Projection",
+        "Hey which interior are you interested in exploring? Kitchen, Bedroom, Living Room, Bathroom, ",
+        "Hello there, which domain are you interested in exploring? Kitchen, Bedroom, Living Room, Bathroom, "
+      ]
+    },
+
+    {
+      "tag": "rejection",
+      "patterns": ["No need", "No", "Nah","Enough"],
+      "responses": [
+        "No worries, you may ask further queries",
+        "Thats fine. Any further queries?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "kitchen",
+      "patterns": [
+        "What are some popular kitchen layouts?",
+        "What are famous Kitchen Categories?",
+        "Kitchen",
+        "Kitchen Layouts?"
+      ],
+      "responses": [
+        "We provide the following formats: \nL-Shaped\n,U-shaped\n,Parallel Shaped\nAny particular design in mind?",
+        "Kitchen Layouts include:   \nL-Shaped\n,U-shaped\n,Parallel Shaped\n. Any specific layout in mind?"
+      ]
+    },
+
+    {
+      "tag": "bedroom",
+      "patterns": [
+        "What are some popular BEDROOM colour schemes",
+        "What are famous Bedrooms Categories?",
+        "Bedroom",
+        "Bedroom Layouts?"
+      ],
+      "responses": [
+        "Popular bedroom colour schemes include classic combinations like blue and white, green and white, and gray and white. However, you can also experiment with bolder colors like red, purple, or orange. some tips for making a small bedroom feel larger: use light colors, maximize natural light, declutter, use mirrors, and choose furniture with clean lines.",
+        "To create a calming bedroom, choose soft colors, use natural materials, and minimize clutter"
+      ]
+    },
+
+    {
+      "tag": "wardrobe",
+      "patterns": [
+        "What are some popular wardrobe colour schemes",
+        "What are famous wardrobe Categories?",
+        "Wardrobe",
+        "WardrobeLayouts?"
+      ],
+      "responses": [
+        "Popular wardrobe styles include modern, traditional, minimalist, and rustic. Popular storage solutions include shelves, drawers, hanging rods, and pull-out baskets."
+      ]
+    },
+    {
+      "tag": "bathroom",
+      "patterns": [
+        "What are some popular bathroom colour schemes",
+        "What are famous bathroom Categories?",
+        "Bathroom",
+        "Bathroom Layouts?"
+      ],
+      "responses": [
+        "Bathrooms can be broadly categorized on 2 categories - Style and Size. what would you like to explore more about?"
+      ]
+    },
+
+    {
+      "tag": "bathroomsize",
+      "patterns": [
+        "What are some popular bathroom sizes",
+        "What are famous bathroom sizes?",
+        "Bathroom size",
+        "Size"
+      ],
+      "responses": [
+        "General advise on bathroom size: use light colors, maximize natural light, declutter, use mirrors, and choose furniture with clean lines. Consider a floating vanity or corner sink to save space"
+      ]
+    },
+
+    {
+      "tag": "bathroomsstyle",
+      "patterns": [
+        "What are some popular bathroom styles",
+        "What are famous bathroom styles?",
+        "Bathroom style",
+        "Style"
+      ],
+      "responses": [
+        "Popular bathroom styles include modern, contemporary, traditional, and rustic. The best style for your bathroom depends on your personal preferences and the overall style of your home including Western or Indian"
+      ]
+    },
+
+
+    {
+      "tag": "living room",
+      "patterns": [
+        "What are some popular living room layouts",
+        "What are famous living room Categories?",
+        "living room",
+        "living room Layouts?"
+      ],
+      "responses": [
+        "Popular living room furniture layouts include a sectional sofa facing a TV, a conversation area with a coffee table, and a reading nook with a comfortable armchair" ,
+        "Minimalist living rooms often feature a neutral color palette, such as white, gray, and black. You can add a touch of color with accents like plants, artwork, or throw pillows"
+      ]
+    },
+
+    {
+      "tag":"Lformat",
+      "patterns": [
+        "L-Shaped",
+        "L Shape"
+      ],
+      "responses":[
+        "L-shaped kitchens feature countertops and appliances\n along two adjacent walls, optimizing corner space and allowing for efficient movement,\n making them ideal for small to medium-sized areas."
+      ]
+    },
+    {
+      "tag":"Uformat",
+      "patterns": [
+        "U-Shaped",
+        "U Shape"
+      ],
+      "responses":[
+        "U-shaped kitchens utilize three walls to create a horseshoe shape, providing ample storage and counter space, which is best suited for larger kitchens and multiple cooks"
+      ]
+    },
+
+    {
+      "tag":"Parallelformat",
+      "patterns": [
+        "Parallel-Shaped",
+        "Parallel Shape"
+      ],
+      "responses":[
+        "Parallel kitchens, also known as galley kitchens, consist of two parallel countertops with a walkway in between, making them efficient for narrow spaces and allowing for a clear separation of cooking and cleaning zones"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    }
+
+    
+  ]
+}
